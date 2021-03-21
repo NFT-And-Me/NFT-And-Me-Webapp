@@ -290,7 +290,7 @@ function Canvas() {
                       <TwitterShareButton
                         title={`NFT & Me 🎨. A piece by me turned NFT. Go to https://nftand.me/`}
                         via="NFT & Me"
-                        hashtags="NFT"
+                        hashtags={["NFT", "Art"]}
                         url={styledPicture.img}
                       >
                         <TwitterIcon size={32} round />
